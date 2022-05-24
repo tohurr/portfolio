@@ -10,7 +10,8 @@ const Home = () => {
             alt="outer space"/>
             
             <div>
-            <Link to='about'> <button>About this page</button></Link>
+            <Link to='about'> <button>About this page</button>
+            </Link>
             </div>
 
         </div>

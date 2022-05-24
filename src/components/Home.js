@@ -4,13 +4,15 @@ const Home = () => {
    return(
         <div>
             <h1>
-            Welcome! Thank you for landing on my page 😎
+            Welcome, this is my website 😎
             </h1>
+            <h3>Cool image right</h3>
+
             <img src="https://media.giphy.com/media/3o7TKzyIPAiMR1pErK/giphy.gif" 
             alt="outer space"/>
             
             <div>
-            <Link to="about"> <button>About this page</button>
+            <Link to="person"> <button>Try clicking here</button>
             </Link>
             </div>
 

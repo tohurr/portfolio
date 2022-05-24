@@ -12,9 +12,9 @@ const Person = () => {
                 <FavoriteFood />
                 <FavoriteColor />
             </div>
-            <p>That's awesome.</p>
+            <p>That's awesome. My favorite food is pizza and favorite color is blue.</p>
             <p>
-            Check out my Github account -- {''} <a href="https://github.com/tohurr"> "Tohur Rahman"</a>
+            Check out my Github account -- {''} <a href="https://github.com/tohurr"> "Tohur"</a>
             </p>
             <div>
             <Link to='/'> <button>Back to Home!</button>

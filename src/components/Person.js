@@ -1,19 +1,18 @@
 import { Link } from 'react-router-dom'
 import FavoriteFood from './FavoriteFood'
+import FavoriteColor from './FavoriteColor'
 
 const Person = () => {
 
     return(
         <div>
-            <h1>Hey, how are you?</h1>
+            <h1>Hey, how are you? Hope you are having a great day.</h1>
 
             <div>
                 <FavoriteFood />
+                <FavoriteColor />
             </div>
-
-            <p>
-            Hope you are having a great day.    
-            </p>
+            <p>That's awesome.</p>
             <p>
             Check out my Github account -- {''} <a href="https://github.com/tohurr"> "Tohur Rahman"</a>
             </p>

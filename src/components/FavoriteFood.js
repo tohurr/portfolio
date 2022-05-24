@@ -32,7 +32,7 @@ class FavoriteFood extends React.Component{
 
         return(
             <div>
-               <h1> Among these 3 foods which is your favorite?: <br /> {this.state.food} </h1>
+               <h3> Among these 3 foods which is your favorite? <br /> {this.state.food} </h3>
                 <button onClick={this.pizza}>Pizza</button>
                 <button onClick={this.burger}>Burger</button>
                 <button onClick={this.hotdog}>Hotdog</button>

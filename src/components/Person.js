@@ -1,11 +1,16 @@
 import { Link } from 'react-router-dom'
+import FavoriteFood from './FavoriteFood'
 
 const Person = () => {
 
     return(
         <div>
             <h1>Hey, how are you?</h1>
-            <h3> Testing</h3>
+
+            <div>
+                <FavoriteFood />
+            </div>
+
             <p>
             Hope you are having a great day.    
             </p>

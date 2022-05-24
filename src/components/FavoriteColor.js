@@ -1,6 +1,4 @@
 import React from 'react';
-
-// We need to import the connect helper to connect to our Redux state
 import {connect} from 'react-redux';
 
 class FavoriteColor extends React.Component{
